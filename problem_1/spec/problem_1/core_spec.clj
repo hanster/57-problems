@@ -4,6 +4,6 @@
 
 (describe "saying hello"
   (it "says hello with the input value"
-    (should= "Enter your name: \nHello Sam!\n"
+    (should-contain "Hello Sam!"
       (with-out-str (with-in-str "Sam"
                       (say-hello))))))

@@ -13,4 +13,4 @@
 (defn -main
   "Say hello"
   [& args]
-  (say-hello-thread-first))
+  (say-hello))
